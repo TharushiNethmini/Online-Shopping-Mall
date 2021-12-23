@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title> Mens_Page</title>
+		
+		<!-- ========= Thejavascript link =========== -->
+		<script src="js/myScript1.js"> </script>
+		<script src="js/subpgs.js"> </script>
+		
+		<!-- ========= The css links =========== -->
+		<link rel="stylesheet" href="styles/homepg.css">
+		<link rel="stylesheet" href="styles/subpages.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+		<style>
+			
+			 <!-- this style part contains all the styles that are included in body table which is the part that describe about the gift pachages.-->
+			.tbbg {          
+					margin: 10px 10px 10px 10px;
+					border-style: double; 
+					border-color: #B8860B;
+					font-weight:bold;
+					padding: 3px;
+					width:98%;   
+					background-color: #000000;
+					}
+			
+			#t01 {
+				  width: 100%;    
+				  background-color: #000000;
+				}
+			
+			
+			
+		</style>
+	
+	<!-- ========= The alert about to reminder to register if the customer is non registered =========== -->
+		<script type="text/javascript">
+			alert("Dear customer: \nBe a registered customer and get a discount for your purchase. \nThank you.");	
+		</script>
+		
+	</head>
+
+	<body>
+	
+		
+		<!-- The head section of the webpage which is logo and the name of the webpage.-->
+		<table align="center">
+			<tr>
+				<td>
+					<img src="images/logo.png" class="logo" alt="logo of the mall" width="200" height="150">
+				</td>
+				<td>
+					<h1 style="color:#ff80b3; font-family:Didot; font-size:45px;" > <b> Miracal Queens </h1>
+					<h2 style="color:#ff66ff; font-family:Didot; font-size:25px;" > The Gift Shopping  Mall </b></h2>
+					
+				</td>
+			</tr>
+		</table>
+		
+		<hr>
+		
+		<!-- ========= The navigation bar of the webpage =========== -->
+		<div class="firstdiv">
+			<ul id="maintags">
+				<li id="two"><a class="active" href="homepage.html"> Home </a></li>
+				<li id="two"><a href="#"> My Cart </a></li>
+				<li id="two"><a href="#"> Register Now </a></li>
+				<li id="two"><a href="#"> About </a></li>
+				<li style="float:right"><a href="#">Sign-in</a></li>
+			</ul>
+		</div>
+		<hr>
+		
+		<!-- ========= The content of the page =========== -->
+		<div class="tbbg">
+		<table id = "t01" align="center" style="100%" >
+		<tr>
+			<td>
+				<p class="head" align="center"> GIFTS FOR MEN </p>
+				<img src="images/mens page/menbg.jpeg" class="lady page background" alt="logo of the mall" width="100%" height="500px">
+			</td>
+		<tr>
+		<td>
+			<div class="seconddiv">
+				<ul id="subtags">
+					
+						<div class="dropdown">
+						  <button class="dropbtn"> Gifts For Gentlemen </button>
+						  <div class="dropdown-content">
+						  <li id="three"><a class="active" href="lady.html"> Gifts For Ladies </a></li>
+						  <li id="three"><a class="active" href="#"> Gifts For Kids  </a></li>
+						  <li id="three"><a class="active" href="lovers.html"> Gifts For Lovers </a></li>
+						  </div>
+						</div>
+						
+					<li id="three"><a href="admin_login.html"> Add New Item </a></li>
+					<li id="three"><a href="admin_login.html"> Remove Item</a></li>
+				</ul>
+			</div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+			<div class="row">
+				  <div class="column">
+					<img src="images/mens page/m1.jpg" alt="item1" style="width:100%" onclick="myFunction(this);">
+					
+						<div class="overlay"> 
+							Casual Dress Code <br> Price: $300.00 <br> Shipping rate: $25.00  <br>
+							<button class="buybtn" type="button" id="buybtn" onclick="pageone('buy')">  <a href="payment.html"> BUY NOW </a>
+						</div>
+				  </div>
+				  <div class="column">
+					<img src="images/mens page/m2.jpg" alt="item2" style="width:100%" onclick="myFunction(this);">
+						<div class="overlay"> 
+							Sweater Kit <br> Price: $450.00 <br> Shipping rate: $30.00  <br>
+							<button class="buybtn" type="button" id="buybtn" onclick="pageone('buy')">  <a href="payment.html"> BUY NOW </a>
+						</div>
+				  </div>
+				  <div class="column">
+					<img src="images/mens page/m3.jpg" alt="item3" style="width:100%" onclick="myFunction(this);">
+						<div class="overlay"> 
+							Simple Wear <br> Price: $250.00 <br> Shipping rate: $22.00  <br>
+							<button class="buybtn" type="button" id="buybtn" onclick="pageone('buy')">  <a href="payment.html"> BUY NOW </a>
+						</div>
+				  </div>
+				  <div class="column">
+					<img src="images/mens page/m4.jpg" alt="item4" style="width:100%" onclick="myFunction(this);">
+						<div class="overlay"> 
+							Black Leather Jacket <br> Price: $100.00 <br> Shipping rate: $15.00  <br>
+							<button class="buybtn" type="button" id="buybtn" onclick="pageone('buy')">  <a href="payment.html"> BUY NOW </a>
+						</div>
+				  </div>
+				  <div class="column">
+					<img src="images/mens page/m5.jpg" alt="item5" style="width:100%" onclick="myFunction(this);">
+						<div class="overlay"> 
+							Gold Sport Shoes <br> Price: $200.00 <br> Shipping rate: $25.00  <br>
+							<button class="buybtn" type="button" id="buybtn" onclick="pageone('buy')">  <a href="payment.html"> BUY NOW </a>
+						</div>
+				  </div>
+				  
+			</div>
+
+			</td>
+		
+			
+		</tr>
+		</table>
+		</div>
+		<br>
+		
+		<!-- ========= The footer of the webpage =========== -->
+		<footer class="footer">
+		<hr>
+		
+			<table id = "t02"  style="width:100%; font-size:20px;"  >
+				<tr  style="color:#cccccc;">
+					<th align="left" style=" padding: 5px;"> <u>  ABOUT  US     </u></th>
+					<th align="left" style=" padding: 5px;"> <u>  SERVICES      </u></th>
+					<th align="left" style=" padding: 5px;"> <u>  GET IN TOUCH  </u></th>
+					<th align="left" style=" padding: 5px;"> <u>  FOLLOW  US    </u></th>
+				</tr>
+				
+				<tr>
+					<td align="left" style=" padding: 5px;">
+						<a  href="#" style="color:#ffffff; text-decoration: none;"> About Us </a><br><br>
+						<a  href="#" style="color:#ffffff; text-decoration: none;"> Contact  </a><br><br>
+						<a  href="#" style="color:#ffffff; text-decoration: none;"> Miracal Queens On Mobile </a><br><br>
+					
+					</td>
+					 
+					 
+					<td align="left" style=" padding: 5px;">
+						 <a  href="#" style="color:#ffffff; text-decoration: none;"> Shipping & Returns </a><br><br>
+						 <a  href="#" style="color:#ffffff; text-decoration: none;"> Privacy Policy </a><br><br>
+						 <a  href="#" style="color:#ffffff; text-decoration: none;"> Terms & Conditions </a><br><br>
+					</td>
+					
+					
+					<td align="left"  style=" padding: 5px;">
+						<img src="images/call.png" alt="call" width="25" height="25">  011-225-801-122  /  (+94)210-5580 
+						<br>
+						<img src="images/email.png" alt="mail" width="25" height="25"> <a href="miracalquuens@gmail.com" style="color:#66d9ff;"> miracalquuens@gmail.com </a>
+					</td>
+					
+					<td align="left"  style=" padding: 5px;">
+						<!--===== Add social pages icons====== -->
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-linkedin"></a>
+						<a href="#" class="fa fa-youtube"></a>
+						<a href="#" class="fa fa-instagram"></a>
+						<br>
+					</td>
+				</tr>
+				
+				<!--===== The copyright statement and card logos====== -->
+				<tr>
+					<td  colspan="4">
+						Copyright 2020 allrights reserved solution by <a href="#" style="color:#ffffff; text-decoration: none;"> Syncbridge</a><br>
+						<img src="images/footer1.jpg" alt="footer" width="100" height="25">
+						<img src="images/footer2.jpg" alt="footer" width="100" height="25">
+					</td>
+				</tr>
+				
+			</table>
+		
+		</footer>	
+
+	
+	<body>
+<html>
+	
