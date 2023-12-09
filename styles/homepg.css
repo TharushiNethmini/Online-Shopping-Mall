@@ -1,0 +1,111 @@
+
+/* The styles of the webpage */
+body{
+	background: linear-gradient(to bottom, #ff0066 0%, #000066 100%);
+	background-position: center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	}
+	
+
+/* The styles of the logo */
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}	
+
+
+hr{height:5px; border-width:0; color:#000000; background-color:#000000;}
+
+/* Styles for the navigation bar */
+
+#maintags{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0d0d0d;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:  #0086b3;
+}
+
+.active {
+  background-color: #1f004d;
+}
+
+.footer{
+	
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+} 
+
+
+
+
+/* Styles for the social icons */
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 1px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background:  #ff00ff;
+  color: white;
+}
+
+
+
+
+
+	
+	

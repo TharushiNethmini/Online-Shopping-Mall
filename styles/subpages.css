@@ -1,0 +1,169 @@
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The page topic */
+.head{
+	color:#ff0000;
+	font-size:30px;
+	font-family:Britannic Bold;
+	
+}
+
+
+/* The dropdown from second navigation  bar which is under the class="lady page background"  button="Gifts For Ladies" */
+.dropbtn {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 145px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #4d2600;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #805500}
+
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #b366ff;
+}
+
+.active {
+  background-color: #bf00ff;
+}
+
+
+/* Styles for the second navigation  bar which is under the class="lady page background" */
+#subtags{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  top: 0;
+}
+#three{
+  float: left;
+}
+
+#three a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#three a:hover {
+  background-color:  #b366ff;
+}
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.column {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+
+/* The overlay effect - lays on top of the container and over the image */
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* When you mouse over the container, fade in the overlay title */
+.column:hover .overlay {
+  opacity: 1;
+}
+
+
+/* The styles put in to the BUY NOW button */
+.buybtn {
+	background-color: #ff0000;
+	border: none;
+	color: white;
+	padding: 14px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+	width:65%;
+	  
+	}
+	
+.buybtn a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.buybtn:hover {
+	background-color: #ff6666;
+	}
+
+
+
+

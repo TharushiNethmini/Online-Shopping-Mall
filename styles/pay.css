@@ -1,0 +1,70 @@
+/* The styles put in to the PREVIOUS button */
+.previousbtn {
+	background-color: #ff0000;
+	border: none;
+	color: white;
+	padding: 14px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+	width:20%;
+	  
+	}
+	
+.previousbtn a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.previousbtn:hover {
+	background-color: #000099;
+	}
+
+/* The table id = "formtb" content styling*/
+#formtb {  
+	width:100%;
+	color:white;
+	background: linear-gradient(to bottom right, #660066 37%, #660033 94%);
+	}
+
+/* The login submit in the first form*/
+#login	{
+		background-color:white;
+		border: none;
+		color: black;
+		padding: 14px 40px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 4px;
+		width:14%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
